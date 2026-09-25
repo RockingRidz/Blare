@@ -13,6 +13,7 @@ The project centers around a custom PCB layout featuring:
 - **User Input:** Four tactile push-buttons (`SW1`-`SW4`) for setting times and controls.
 - **Alerts:** Onboard buzzer (`BZ1`) for the alarm sound.
 - **Mounting:** Four corner mounting holes (`H1`-`H4`) matching the enclosure posts.
+  ![PCB Layout](images/PCB.png)
 
 ## Enclosure & CAD
 
