@@ -37,5 +37,5 @@ The project centers around a custom PCB layout featuring:
 
 ## Status
 
-Enclosure design and firmware layout are complete, moving into final assembly and testing.
+Enclosure design and firmware layout are complete, ready to move into final assembly and testing!!
 ![PCB Layout](images/assembled.png)
