@@ -1,0 +1,107 @@
+** Drc report for Blare.kicad_pcb **
+** Created on 2026-09-25T21:16:03 **
+** Report includes: Errors, Warnings **
+
+** Found 25 DRC violations **
+[lib_footprint_issues]: The current configuration does not include the footprint library 'MountingHole'
+    Local override; warning
+    @(120.0000 mm, 46.0000 mm): Footprint H2
+[lib_footprint_issues]: The current configuration does not include the footprint library 'Button_Switch_Keyboard'
+    Local override; warning
+    @(136.7100 mm, 77.6700 mm): Footprint SW1
+[lib_footprint_issues]: The current configuration does not include the footprint library 'Connector_PinSocket_2.54mm'
+    Local override; warning
+    @(146.5800 mm, 67.5000 mm): Footprint J1
+[lib_footprint_issues]: The current configuration does not include the footprint library 'Button_Switch_Keyboard'
+    Local override; warning
+    @(174.8700 mm, 77.6700 mm): Footprint SW3
+[lib_footprint_issues]: The current configuration does not include the footprint library 'MountingHole'
+    Local override; warning
+    @(199.0000 mm, 97.2500 mm): Footprint H4
+[lib_footprint_issues]: The current configuration does not include the footprint library 'MountingHole'
+    Local override; warning
+    @(199.0000 mm, 46.0000 mm): Footprint H1
+[lib_footprint_issues]: The current configuration does not include the footprint library 'Buzzer_Beeper'
+    Local override; warning
+    @(181.2000 mm, 64.0000 mm): Footprint BZ1
+[lib_footprint_issues]: The current configuration does not include the footprint library 'Button_Switch_Keyboard'
+    Local override; warning
+    @(155.7100 mm, 77.6700 mm): Footprint SW2
+[lib_footprint_issues]: The current configuration does not include the footprint library 'MountingHole'
+    Local override; warning
+    @(120.2500 mm, 96.7500 mm): Footprint H3
+[lib_footprint_issues]: The current configuration does not include the footprint library 'Button_Switch_Keyboard'
+    Local override; warning
+    @(193.8700 mm, 77.6700 mm): Footprint SW4
+[text_height]: Text height out of range (board setup constraints silk text height min height 0.8000 mm; actual 0.6350 mm)
+    Rule: board setup constraints silk text height; warning
+    @(173.5250 mm, 58.7750 mm): Reference field of U2
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(154.3600 mm, 67.0090 mm): Segment of U2 on B.Silkscreen
+    @(154.7950 mm, 50.8800 mm): Pad 14 [unconnected-(U2-VBUS-Pad14)_1] of U2 on B.Cu
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(154.3600 mm, 67.0090 mm): Segment of U2 on B.Silkscreen
+    @(154.7950 mm, 53.4200 mm): Pad 13 [GND] of U2 on B.Cu
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(154.3600 mm, 67.0090 mm): Segment of U2 on B.Silkscreen
+    @(154.7950 mm, 55.9600 mm): Pad 12 [+3.3V] of U2 on B.Cu
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(154.3600 mm, 67.0090 mm): Segment of U2 on B.Silkscreen
+    @(154.7950 mm, 58.5000 mm): Pad 11 [/SDA] of U2 on B.Cu
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(154.3600 mm, 67.0090 mm): Segment of U2 on B.Silkscreen
+    @(154.7950 mm, 61.0400 mm): Pad 10 [/SCL] of U2 on B.Cu
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(154.3600 mm, 67.0090 mm): Segment of U2 on B.Silkscreen
+    @(154.7950 mm, 63.5800 mm): Pad 9 [/RST] of U2 on B.Cu
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(154.3600 mm, 67.0090 mm): Segment of U2 on B.Silkscreen
+    @(154.7950 mm, 66.1200 mm): Pad 8 [Net-(BZ1-+)] of U2 on B.Cu
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(172.1400 mm, 67.0090 mm): Segment of U2 on B.Silkscreen
+    @(171.7050 mm, 66.1200 mm): Pad 7 [/BL] of U2 on B.Cu
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(172.1400 mm, 67.0090 mm): Segment of U2 on B.Silkscreen
+    @(171.7050 mm, 63.5800 mm): Pad 6 [/CS] of U2 on B.Cu
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(172.1400 mm, 67.0090 mm): Segment of U2 on B.Silkscreen
+    @(171.7050 mm, 61.0400 mm): Pad 5 [/DC] of U2 on B.Cu
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(172.1400 mm, 67.0090 mm): Segment of U2 on B.Silkscreen
+    @(171.7050 mm, 58.5000 mm): Pad 4 [Net-(U2-D3)] of U2 on B.Cu
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(172.1400 mm, 67.0090 mm): Segment of U2 on B.Silkscreen
+    @(171.7050 mm, 55.9600 mm): Pad 3 [Net-(U2-D2)] of U2 on B.Cu
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(172.1400 mm, 67.0090 mm): Segment of U2 on B.Silkscreen
+    @(171.7050 mm, 53.4200 mm): Pad 2 [Net-(U2-D1)] of U2 on B.Cu
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(172.1400 mm, 67.0090 mm): Segment of U2 on B.Silkscreen
+    @(171.7050 mm, 50.8800 mm): Pad 1 [Net-(U2-D0)] of U2 on B.Cu
+
+** Found 0 unconnected pads **
+
+** Found 0 Footprint errors **
+
+** Ignored checks **
+    - Footprint has no courtyard defined
+    - Track endpoint not centered on via
+    - Tuning profile track geometries
+    - Footprint doesn't match symbol's footprint filters
+    - Footprint component type doesn't match footprint pads
+
+** End of Report **
