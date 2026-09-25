@@ -19,6 +19,7 @@ The project centers around a custom PCB layout featuring:
 
 - **Dimensions:** 95x74x35mm outer casing with a custom screen cutout (44x34mm).
 - **Features:** Includes side vents, a USB port opening, and a two-piece design (base and lid) secured with M3 screw holes (3.2mm diameter with 6mm counterbores).
+ ![PCB Layout](images/case\Lid.png)
 
 ## Firmware
 
@@ -36,3 +37,4 @@ The project centers around a custom PCB layout featuring:
 ## Status
 
 Enclosure design and firmware layout are complete, moving into final assembly and testing.
+![PCB Layout](images/assembled.png)
