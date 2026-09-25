@@ -30,6 +30,7 @@ The project centers around a custom PCB layout featuring:
 - `cad/`: Contains the 3D model files (`blare_base.stl`, `blare_lid.stl`).
 - `firmware/`: Source code for the microcontroller (`firmware.ino`).
 - `pcb/`: KiCad project files and schematic layout.
+- `production/`: All the files needed to get into building
 
 ## Status
 
