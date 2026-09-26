@@ -1,41 +1,53 @@
-# Blare
+Blare
+Blare is a custom alarm clock I built for Hack Club's Stardance project. I wanted to make something practical that looks good on a desk and actually gets me out of bed in the morning.
 
-Blare is a custom-designed, smart-ish alarm clock built with Hack Club's Stardance.
+What it does
+At its core, Blare is a standalone desktop alarm clock. It runs off a custom PCB I designed in KiCad, sits inside a custom 3D-printed case, and uses a color display to show the time and alarm status.
 
-## What is Blare?
+Hardware and PCB ![PCB SCHM](images/Schematic)
+I designed the PCB from scratch around an ESP32 microcontroller module. The board includes:
 
-Blare is designed to solve the struggle of waking up in the morning. It features a custom 3D-printed enclosure, a custom PCB designed in KiCad, and an ST7789 display setup to ensure you actually get out of bed.
+An ESP32 footprint to handle the clock logic.
 
-## Hardware & PCB Design
+Four push buttons for setting the time, toggling the alarm, and navigating menus.
 
-The project centers around a custom PCB layout featuring:
-- **Microcontroller Integration:** Controlled via an ESP32-style layout.
-- **User Input:** Four tactile push-buttons (`SW1`-`SW4`) for setting times and controls.
-- **Alerts:** Onboard buzzer (`BZ1`) for the alarm sound.
-- **Mounting:** Four corner mounting holes (`H1`-`H4`) matching the enclosure posts.
-  ![PCB Layout](images/PCB.png)
+A piezo buzzer for the alarm sound.
 
-## Enclosure & CAD
+An ST7789 display connector.
 
-- **Dimensions:** 95x74x35mm outer casing with a custom screen cutout (44x34mm).
-- **Features:** Includes side vents, a USB port opening, and a two-piece design (base and lid) secured with M3 screw holes (3.2mm diameter with 6mm counterbores).
+Four mounting holes near the corners to attach the board securely inside the case.
+![PCB Layout](images/PCB)
+Enclosure
+The case was designed in Onshape to house the PCB, screen, and buttons snugly.
 
- ![PCB Layout](images/caseLid.png)
+Size: 95mm x 74mm x 35mm.
 
-## Firmware
+Design: It uses a two-part split enclosure (a base and a lid) with M3 screw posts for assembly.
 
-- **Platform:** Arduino IDE
-- **Libraries Required:** `Adafruit_GFX`, `Adafruit_ST7789`, and `SPI`.
-- **Display Configuration:** Configured for an unusual 284x76 resolution display using custom offsets (`82, 18`) and a subclass to handle initialization.
+Openings: Cutouts on the front for the screen, side vents for airflow and buzzer sound, and a back slot for USB power.
 
-## Project Structure
+Firmware
+The firmware is written in C++ using the Arduino framework. It drives the ST7789 display, tracks time, listens for button presses to adjust the time/alarm, and triggers the buzzer when the alarm goes off.
 
-- `cad/`: Contains the 3D model files (`blare_base.stl`, `blare_lid.stl`).
-- `firmware/`: Source code for the microcontroller (`firmware.ino`).
-- `pcb/`: KiCad project files and schematic layout.
-- `production/`: All the files needed to get into building
+Required Libraries:
 
-## Status
+Adafruit_GFX
 
-Enclosure design and firmware layout are complete, ready to move into final assembly and testing!!
-![PCB Layout](images/assembled.png)
+Adafruit_ST7789
+
+SPI
+
+Repository Structure
+cad/: Onshape exports, including STL and STEP files for the lid and base.
+
+firmware/: Arduino source code for the clock.
+
+pcb/: KiCad schematics and board layout files.
+
+production/: Manufacturing files like Gerber files and assembly drawings.
+![PCB Layout](images/SCHM)
+
+
+Current State
+The PCB layout is finished, the Onshape case model is split and ready for printing, and the core alarm clock code is ready for testing on hardware.
+images/PCB
