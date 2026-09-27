@@ -1,16 +1,13 @@
-1. Microcontroller: ESP32 or Arduino Nano Board | Quantity: 1 | Price: ₹450.00 ($5.50)
+Bill of Materials (BOM)
 
-2. RTC Module: DS3231 Real-Time Clock Module | Quantity: 1 | Price: ₹150.00 ($1.80)
+- Seeed Studio XIAO ESP32C3 - $5.00
+- 2.25" TFT Screen - $4.00
+- MX-Style Mechanical Switches (4x) - $1.00
+- White Blank DSA Keycaps (4x) - $0.80
+- 3.3V Piezo Buzzer - $0.35
+- Custom PCB - $1.50
+- 2.54mm Headers & Jumpers - $0.50
+- 3D Printed Enclosure - $3.00
+- M3 Inserts & Screws (4x) - $0.30
 
-3. Display: 0.96-inch OLED (I2C) or LCD 1602 | Quantity: 1 | Price: ₹250.00 ($3.00)
-
-4. Buzzer: Active Piezo Buzzer 5V | Quantity: 1 | Price: ₹30.00 ($0.35)
-
-5. Push Buttons: Tactile Switches (Set of 2) | Quantity: 2 | Price: ₹20.00 ($0.25)
-
-6. Power Supply: Micro-USB / Type-C Breakout or Battery Holder | Quantity: 1 | Price: ₹80.00 ($1.00)
-
-7. Enclosure: 3D Printed Filament (PLA) | Quantity: 1 | Price: ₹300.00 ($3.60)
-
-8. Wires & Misc: Jumper Wires and Breadboard/PCB | Quantity: 1 | Price: ₹100.00 ($1.20)
-  Total: 1,400INR / $18
+Total:~$16.45 USD
